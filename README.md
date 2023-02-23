@@ -2,6 +2,8 @@
 
 Just one of the things I'm learning. https://github.com/hchiam/learning
 
+nx is like a modern version of [CRA (Create-React-App)](https://github.com/hchiam/learning-reactjs), but nx is meant for more than that:
+
 https://youtu.be/2OTq15A5s0Y?t=159
 
 https://nx.dev
@@ -11,6 +13,18 @@ https://nx.dev/getting-started
 https://www.youtube.com/@nxdevtools/videos
 
 - nx commands like `nx init` or `nx graph`: https://nx.dev/reference/commands
+
+- nx has generators like component boilerplate scaffolding:
+
+  ```sh
+  npx nx g @nrwl/react:component shop
+  ```
+
+  or
+
+  ```sh
+  nx g @nrwl/react:component shop
+  ```
 
 - `nx g @nrwl/workspace:ci-workflow` to set up things like GitHub CI automation: https://nx.dev/packages/workspace/generators/ci-workflow
 
@@ -31,3 +45,13 @@ npx create-nx-workspace
 and follow the CLI prompts.
 
 But if you want to be able to run `nx ...` commands directly, run `yarn global add nx` or `npm install -g nx`
+
+Then:
+
+```sh
+# cd into new folder and run
+npm run start
+# or
+yarn dev
+# http://localhost:4200/
+```
