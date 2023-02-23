@@ -26,6 +26,11 @@ https://www.youtube.com/@nxdevtools/videos
   nx g @nrwl/react:component shop
   ```
 
+  (see `<ExampleScaffoldedComponent/>` inside /text-nx-app)
+
+  - https://github.com/hchiam/learning-nx/tree/main/test-nx-app/src/app/example-scaffolded-component
+  - https://github.com/hchiam/learning-nx/blob/main/test-nx-app/src/app/app.tsx
+
 - `nx g @nrwl/workspace:ci-workflow` to set up things like GitHub CI automation: https://nx.dev/packages/workspace/generators/ci-workflow
 
 - `npx nx@latest init` or just `nx init` automatically migrates a create-react-app to an nx app with [vite](https://github.com/hchiam/learning-vite) support https://www.youtube.com/watch?v=zvYb7XCLQzU
